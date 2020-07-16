@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
 * {
 padding : 0;
 margin : 0;
+font-family: 'Teko', sans-serif;
+font-size: 18px;
 }
+
 
 body {
 background: white;
@@ -13,11 +19,11 @@ height: 2000px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 20px 5%;
+padding: 15px 5%;
 }
 
 .logo {
-height: 20px;
+height: 25px;
 }
 
 nav {
@@ -52,7 +58,12 @@ margin-top: -50px;
 background: white;
 }
 
-.footer .copyright {
+.copyright {
+position: relative;
+margin: 0 auto;
 text-align: center;
-padding: auto;
+align-items: center;
+justify-content: center;
+font-size: 18px;
+line-height:50px;
 }
